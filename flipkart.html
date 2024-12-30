@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flipkart</title>
+    <style>
+        *
+        {
+            margin: 0px;
+        }
+        nav
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            background-color: rgb(37, 37, 241);
+            padding: 10px;
+            color: white;
+            position: sticky;
+            top: 0px;
+        }
+        nav>div>span
+        {
+            color: yellow;
+        }
+        .nav>.inp>input
+        {
+            width: 300px;
+            height: 28px;
+        }
+        .nav>.anc>a
+        {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        .nav>.but>button
+        {
+            padding: 8px 10px;
+            font-size: 14px;
+        }
+        ::placeholder
+        {
+            color: blue;
+            font-size: 15px;
+        }
+        .container
+        {
+            display: flex;
+            justify-content: space-evenly;
+            border: 2px solid white;
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        img
+        {
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+        .container>.items>h3,a
+        {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
+        .container1
+        {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5px;
+            background-color: white;
+            margin-top: 10px;
+        }
+        .container1>.parent>img
+        {
+            height: 200px;
+            width: 200px;
+        }
+        .container1>.parent
+        {
+            border: 2px solid black;
+            width: 22%;
+            text-align: center;
+            padding: 10px;
+            border-radius: 13px;
+        }
+        .container1>.parent>h4
+        {
+            padding: 5px;
+            color: green;
+        }
+        .container2
+        {
+            border: 2px solid rgb(228, 225, 225);
+            background-color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .container2A
+        {
+            display: flex;
+            border: 2px solid rgb(239, 228, 228);
+            justify-content: space-evenly;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .container2A>.parent1
+        {
+            border: 2px solid gray;
+            width: 18%;
+            text-align: center;
+            margin-top: 10px;
+            padding: 5px;
+        }
+        .container2A>.parent1>img
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 0px;
+            padding: 5px;
+        }
+        .container2>.container2A>.parent1>h4
+        {
+            margin-top: 5px;
+        }
+        .container3
+        {
+            border: 2px solid black;
+            height: 70px;
+            background-color: black;
+            color: yellow;
+        }
+        .container3>.end
+        {
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            margin-top: 30px;
+        }
+        .container3>.end>.anc>a
+        {
+            color: yellow;
+        }
+        body
+        {
+            background-color: rgb(248, 238, 238);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div>
+            <h1>Flipkart</h1>
+            <span>Explore Plus</span>
+        </div>
+        <div class="inp">
+            <input type="text" placeholder="Search for products,brands and more">
+        </div>
+        <div class="but">
+            <button>Login</button>
+        </div>
+        <div class="anc">
+            <a href="">Become a seller</a>
+        </div>
+        <div class="anc">
+            <a href="">More</a>
+        </div>
+        <div class="anc">
+            <a href="">Cart</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="items">
+            <img src="../image/grocery.jfif" alt="">
+            <h3><a href="">Grocery</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/mobile.jfif" alt="">
+            <h3><a href="">Mobiles</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/fashion.jfif" alt="">
+            <h3><a href="">Fashion</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/electronics.jfif" alt="">
+            <h3><a href="">Electronics</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/home & furniture.jfif" alt="">
+            <h3><a href="">Furniture</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/appliances.jfif" alt="">
+            <h3><a href="">Appliances</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/flight.jfif" alt="">
+            <h3><a href="">Flights</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/toys.jfif" alt="">
+            <h3><a href="">Beauty & Toys</a></h3>
+        </div>
+        <div class="items">
+            <img src="../image/two wheeler.jfif" alt="">
+            <h3><a href="">Two Wheeler</a></h3>
+        </div>
+    </div>
+
+    <div class="container2">
+        <h1>Top Offers</h1>
+        <div class="container2A">
+            <div class="parent1">
+                <img src="../image/pumajacket.jpg" alt="">
+                <div><a href="">Puma, Killer & More</a></div>
+                <h4>55-80% Off</h4>
+            </div>
+            <div class="parent1">
+                <img src="../image/kurta.jpg" alt="">
+                <div><a href="">Kurta Sets</a></div>
+                <h4>Min.70% Off</h4>
+            </div>
+            <div class="parent1">
+                <img src="../image/luxcott.webp" alt="">
+                <div><a href="">FortCollins, Wildcraft & More</a></div>
+                <h4>Under 499/-</h4>
+            </div>
+            <div class="parent1">
+                <img src="../image/hrxshoe.jpg" alt="">
+                <div><a href="">Reebok, HRX & More</a></div>
+                <h4>Min.70% Off</h4>
+            </div>
+            <div class="parent1">
+                <img src="../image/safaritrolley.webp" alt="">
+                <div><a href="">Safari, Aristocrat & More</a></div>
+                <h4>Min.70% Off</h4>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container1">
+        <div class="parent">
+            <img src="../image/airpods.webp" alt="">
+            <h3><a href="">Airpod</a></h3>
+            <h4>40% Off</h4>
+            <p>boAt Airdopes Alpha with 35 HRS Playback, 13mm Drivers, Dual Mics ENx & Beast Mode Bluetooth  (Jet Black, In the Ear)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/smartwatch.jpg" alt="">
+            <h3><a href="">Smart Watch</a></h3>
+            <h4>32% Off</h4>
+            <p>SAMSUNG Galaxy Watch FE, 40mm BT, Sapphire Crystal Display, Sleep Coach, Fall Detection  (Black Strap, Small)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/pumashoe.webp" alt="">
+            <h3><a href="">Puma Shoe</a></h3>
+            <h4>62% Off</h4>
+            <p>CyclonitePro Res Running Shoes For Men  (Grey , 9)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/poccom6+.webp" alt="">
+            <h3><a href="">Pocco M6 Plus</a></h3>
+            <h4>16% Off</h4>
+            <p>POCO M6 Plus 5G (Ice Silver, 128 GB)  (6 GB RAM)</p>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="parent">
+            <img src="../image/titan.webp" alt="">
+            <h3><a href="">Titan Watch</a></h3>
+            <h4>26% Off</h4>
+            <p>Titan Mechanical Analog Watch - For Men 90110QM01</p>
+        </div>
+        <div class="parent">
+            <img src="../image/delllap.jpg" alt="">
+            <h3><a href="">Inspiron 15 Laptop (Dell)</a></h3>
+            <h4>36% Off</h4>
+            <p>DELL Latitude 3540 Intel Core i3 12th Gen - (8 GB/512 GB SSD/Ubuntu) Latitude 3540 Laptop  (15.6 inch, Smoky Black)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/smarttv.webp" alt="">
+            <h3><a href="">Smart TV</a></h3>
+            <h4>18% Off</h4>
+            <p>Thomson FA Series 80 cm (32 inch) HD Ready LED Smart Android TV with Dolby Digital Plus & Android 11  (32RT1022)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/trolleybag.jpg" alt="">
+            <h3><a href="">American Tourister</a></h3>
+            <h4>31% Off</h4>
+            <p>Large Check-in Suitcase (77 cm) 4 Wheels - AMT BRANDON NXT SP77TSA-SKY BLUE - Green</p>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="parent">
+            <img src="../image/trimmer.jpg" alt="">
+            <h3><a href="">Havels Trimmer</a></h3>
+            <h4>14% Off</h4>
+            <p>HAVELLS BT4441 Trimmer 120 min Runtime 9 Length Settings  (Black)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/pendrive.webp" alt="">
+            <h3><a href="">Sandisk Pendrive</a></h3>
+            <h4>64% Off</h4>
+            <p>SanDisk SDDDC3-064G-I35L / Mobile Dual Drive / 150 Mbs 64 GB OTG Drive  (Black, Type A to Type C)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/lipbalm.webp" alt="">
+            <h3><a href="">Dot & Key Lip Balm</a></h3>
+            <h4>16% Off</h4>
+            <p>Dot & Key Barrier Repair Hydrating Lip Balm SPF 50 | Cherry Crimson |Soft Tinted Chapstick Cherry  (Pack of: 1, 4.5 g)</p>
+        </div>
+        <div class="parent">
+            <img src="../image/jacket.webp" alt="">
+            <h3><a href="">U.S Polo Jacket </a></h3>
+            <h4>8% Off</h4>
+            <p>Men Solid Bomber Jacket</p>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="end">
+            <div class="anc"><a href="">Become a Seller</a></div>
+            <div class="anc"><a href="">Advertise</a></div>
+            <div class="anc"><a href="">Gift Cards</a></div>
+            <div class="anc"><a href="">Help Center</a></div>
+            <div class="anc"><a href="">@ 2007-2024 Flipkart.com</a></div>
+        </div>
+    </div>
+
+</body>
+</html>
